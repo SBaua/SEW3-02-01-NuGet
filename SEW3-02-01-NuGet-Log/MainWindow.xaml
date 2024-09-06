@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btn_add" Content="Addieren" HorizontalAlignment="Center" Margin="0,248,0,0" VerticalAlignment="Top" Height="58" Width="84" Background="#FFF12121" FontSize="18" Click="btn_add_Click"/>
+        <TextBox x:Name="tbx_Eingabe_1" HorizontalAlignment="Left" Margin="222,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="134" Height="62" FontSize="22" Background="#FFC1C0C0"/>
+        <TextBox x:Name="tbx_Eingabe_2" HorizontalAlignment="Left" Margin="442,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="134" Height="62" FontSize="22" Background="#FFC1C0C0"/>
+        <TextBlock x:Name="tbk_sum" HorizontalAlignment="Left" Margin="603,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="113" FontSize="22" Background="#FFF78B8B" Text=""/>
 
     </Grid>
 </Window>

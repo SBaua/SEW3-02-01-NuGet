@@ -20,5 +20,11 @@ namespace SEW3_02_01_NuGet_Log
         {
             InitializeComponent();
         }
+
+        private void btn_add_Click(object sender, RoutedEventArgs e)
+        {
+            double ergebnis = Convert.ToDouble(tbx_Eingabe_1.Text) + Convert.ToDouble(tbx_Eingabe_2.Text);
+            tbk_sum.Text = Convert.ToString(ergebnis); 
+        }
     }
 }
